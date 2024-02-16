@@ -7,6 +7,7 @@ return {
       "php",
       "javascript",
       "typescript",
+      "tsx",
       "css",
       "html",
       "json",
@@ -16,6 +17,5 @@ return {
       "sql",
     })
   end,
-  auto_install = true,
-  build = ":TSInstall all",
+  auto_install = true
 }
